@@ -1,4 +1,16 @@
-.header {
-    height: 121px;
+.header-backgr {
     background-color: #94acb3;
+    border-bottom: 1px solid #ffe600;
+    height: 121px;
+}
+.header-box-logo {
+    margin: 0 auto;
+}
+.header-box-logo img {
+    padding-top: 25px;
+}
+
+
+.main {
+    background: url('img/background_main.png') no-repeat;
 }

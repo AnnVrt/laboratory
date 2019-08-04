@@ -1,4 +1,10 @@
-.header-backgr {
+li {
+    list-style: none;
+} 
+a {
+    
+}
+.header {
     background-color: #94acb3;
     border-bottom: 1px solid #ffe600;
     height: 121px;
@@ -13,4 +19,37 @@
 
 .main {
     background: url('img/background_main.png') no-repeat;
+}
+.nav-list {
+    justify-content: space-between;
+    
+}
+
+.nav-item {
+    padding: 1rem 1rem;
+    position: relative;
+    
+}
+.nav-link {
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #588181;
+    
+}
+.nav-link:hover {
+    border-bottom: 4px dotted #ffe600;
+}
+.nav-item:hover::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12px;
+    height: 12px;
+    background-image: url('img/drop.svg');
+    background-repeat: no-repeat;
 }

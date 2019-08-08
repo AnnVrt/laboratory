@@ -2,7 +2,7 @@ li {
     list-style: none;
 } 
 a {
-    
+  text-decoration: none;  
 }
 .header {
     background-color: #94acb3;
@@ -20,25 +20,27 @@ a {
 .main {
     background: url('img/background_main.png') no-repeat;
 }
+.navigation {
+    box-sizing: border-box;
+}
 .nav-list {
     justify-content: space-between;
-    
 }
 
 .nav-item {
     padding: 1rem 1rem;
     position: relative;
-    
 }
 .nav-link {
     padding: 0px;
+    padding-bottom: 4px;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
     color: #588181;
-    
 }
 .nav-link:hover {
+    padding-bottom: 0px;
     border-bottom: 4px dotted #ffe600;
 }
 .nav-item:hover::before {
@@ -52,4 +54,89 @@ a {
     height: 12px;
     background-image: url('img/drop.svg');
     background-repeat: no-repeat;
+}
+.box-quality {
+    width: 1100px;
+    margin: 0 auto;
+    background-image: url('img/main-backgr_1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.box-text-quality {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 450px;
+    position: relative;
+    top: 50%;
+    left: 110px;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    opacity: 0.6;
+    color: #94acb3;
+    font-family: Ubuntu;
+}
+.quality-title {
+    text-transform: uppercase;
+}
+.quality-desc {
+    line-height: 36px;
+}
+
+
+
+
+.main-sect-welcome  {
+    border-top: 2px solid #ffe600;
+    border-bottom: 2px solid #ffe600;
+    background-color: #fcfcd5;
+    padding: 30px 0px;
+}
+.sect-welc_text {
+    color: #588181;
+}
+.welcome_title {
+    font-size: 24px;
+    font-weight: 300;
+}
+.welcome_img {
+    width: 100%;
+    margin: 25px 0px;
+}
+.welcome_desc {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+.link-col-opt {
+    color: #ffe600;
+}
+.link-col-opt img {
+    width: 100%;
+}
+.options-text {
+    padding-left: 10px;
+    margin: 0px;
+    margin-top: 20px;
+    background-color: #94acb3;
+}
+
+
+.footer-box {
+    padding: 20px 0px;
+}
+.footer-box-text {
+    color: #767676;
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer-text-year {
+    margin-right: 20px;
+}
+.footer-nav-list li {
+    margin-left: 15px;
 }
